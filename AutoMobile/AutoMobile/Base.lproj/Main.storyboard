@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Sir-nH-o4h">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--HomeVC-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="HomeVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hLa-6h-ebX"/>
+                        <viewControllerLayoutGuide type="bottom" id="NOB-G9-tUi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="automobile_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="xxa-WG-jgP">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0dg-Sq-HVO">
+                                <rect key="frame" x="-10" y="114" width="340" height="340"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="automobile_center.png" translatesAutoresizingMaskIntoConstraints="NO" id="Utf-WJ-gV1">
+                                        <rect key="frame" x="0.0" y="0.0" width="340" height="340"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w60-AX-cbO">
+                                        <rect key="frame" x="82" y="197" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="Sell">
+                                            <color key="titleColor" red="0.98431372549019602" green="0.57647058823529407" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="sellTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DAA-pa-gzG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Law-32-rhP">
+                                        <rect key="frame" x="127" y="266" width="87" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="News">
+                                            <color key="titleColor" red="0.98431372549019602" green="0.57647058823529407" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="newsTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="s4Y-fD-yfl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lqg-3p-whT">
+                                        <rect key="frame" x="217" y="197" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="Buy">
+                                            <color key="titleColor" red="0.98431372549019602" green="0.57647058823529407" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buyTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ZlT-TZ-uQI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aXF-m3-Zg5">
+                                        <rect key="frame" x="149" y="197" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="Me">
+                                            <color key="titleColor" red="0.98431372549019602" green="0.57647058823529407" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="meTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="R1b-hc-hKl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zil-jg-cq7">
+                                        <rect key="frame" x="113" y="124" width="115" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="Directory">
+                                            <color key="titleColor" red="0.98431372549019602" green="0.57647058823529407" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="nearbyTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="p5H-H8-Q6b"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="340" id="1kM-FC-XH5"/>
+                                    <constraint firstAttribute="height" constant="340" id="hM6-1G-V7v"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="0dg-Sq-HVO" secondAttribute="centerY" id="9bv-XN-ZW7"/>
+                            <constraint firstAttribute="centerX" secondItem="0dg-Sq-HVO" secondAttribute="centerX" id="Hq4-bB-nMn"/>
+                            <constraint firstItem="xxa-WG-jgP" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="cYD-dR-Lys"/>
+                            <constraint firstAttribute="trailing" secondItem="xxa-WG-jgP" secondAttribute="trailing" id="czO-hf-NZ5"/>
+                            <constraint firstItem="xxa-WG-jgP" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="gjz-wk-Y6z"/>
+                            <constraint firstItem="NOB-G9-tUi" firstAttribute="top" secondItem="xxa-WG-jgP" secondAttribute="bottom" id="h9y-AA-c5z"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="SrH-rK-nqH"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="buy" destination="Lqg-3p-whT" id="7ag-Cv-3bf"/>
+                        <outlet property="me" destination="aXF-m3-Zg5" id="deG-H5-a5M"/>
+                        <outlet property="nearby" destination="zil-jg-cq7" id="AUY-rk-NVl"/>
+                        <outlet property="news" destination="Law-32-rhP" id="XSY-ax-pAj"/>
+                        <outlet property="sell" destination="w60-AX-cbO" id="7Yf-Di-4rd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="604" y="82"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fbv-SC-Iy2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Sir-nH-o4h" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FoU-vc-hew">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="Lzt-pj-1Ap"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hdz-OV-XPB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="193" y="82"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="automobile_bg.png" width="320" height="470"/>
+        <image name="automobile_center.png" width="276" height="283"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

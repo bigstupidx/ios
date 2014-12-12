@@ -1,0 +1,912 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		522318F119C9854800AA26F9 /* SaleReportDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 522318F019C9854800AA26F9 /* SaleReportDetailVC.m */; };
+		522318F419C9965900AA26F9 /* SaleReportRoomVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 522318F319C9965900AA26F9 /* SaleReportRoomVC.m */; };
+		522D533919BEAFAC00A6A34C /* JDStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 522D533419BEAFAC00A6A34C /* JDStatusBarNotification.m */; };
+		522D533A19BEAFAC00A6A34C /* JDStatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 522D533619BEAFAC00A6A34C /* JDStatusBarStyle.m */; };
+		522D533B19BEAFAC00A6A34C /* JDStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 522D533819BEAFAC00A6A34C /* JDStatusBarView.m */; };
+		522D533D19BEE19900A6A34C /* blue_tri.png in Resources */ = {isa = PBXBuildFile; fileRef = 522D533C19BEE19900A6A34C /* blue_tri.png */; };
+		522FF50619CAB64B007852EE /* ReportWeeklyMonthlyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 522FF50519CAB64B007852EE /* ReportWeeklyMonthlyVC.m */; };
+		522FF50919CABDFD007852EE /* Month_Year_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 522FF50819CABDFD007852EE /* Month_Year_VC.m */; };
+		522FF50C19CADDB0007852EE /* ReportColcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 522FF50B19CADDB0007852EE /* ReportColcell.m */; };
+		52305BB219B980A500E07579 /* ToDateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52305BB119B980A500E07579 /* ToDateVC.m */; };
+		52305BBB19B980C300E07579 /* CKCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52305BB519B980C300E07579 /* CKCalendarView.m */; };
+		52305BBC19B980C300E07579 /* left_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 52305BB719B980C300E07579 /* left_arrow.png */; };
+		52305BBD19B980C300E07579 /* left_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52305BB819B980C300E07579 /* left_arrow@2x.png */; };
+		52305BBE19B980C300E07579 /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 52305BB919B980C300E07579 /* right_arrow.png */; };
+		52305BBF19B980C300E07579 /* right_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52305BBA19B980C300E07579 /* right_arrow@2x.png */; };
+		5239D17F19C1A49400309722 /* EditBookinglistVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5239D17E19C1A49400309722 /* EditBookinglistVC.m */; };
+		523C1DAB19D511E4003A47FF /* Zawgyi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 523C1DAA19D511E4003A47FF /* Zawgyi.ttf */; };
+		523E27FC19C6A55B0075A7C6 /* cb_glossy_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 523E27F819C6A55B0075A7C6 /* cb_glossy_off.png */; };
+		523E27FD19C6A55B0075A7C6 /* cb_glossy_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 523E27F919C6A55B0075A7C6 /* cb_glossy_off@2x.png */; };
+		523E27FE19C6A55B0075A7C6 /* cb_glossy_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 523E27FA19C6A55B0075A7C6 /* cb_glossy_on.png */; };
+		523E27FF19C6A55B0075A7C6 /* cb_glossy_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 523E27FB19C6A55B0075A7C6 /* cb_glossy_on@2x.png */; };
+		523E280219C6ED2D0075A7C6 /* CheckinSlipVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 523E280119C6ED2D0075A7C6 /* CheckinSlipVC.m */; };
+		52404EF619D2D26E00B9A881 /* RoomTypePopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 52404EF519D2D26E00B9A881 /* RoomTypePopover.m */; };
+		5245AB8319C008F300F8F2CA /* BookingListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5245AB8219C008F300F8F2CA /* BookingListVC.m */; };
+		5245AB8719C02BBD00F8F2CA /* BookListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5245AB8619C02BBD00F8F2CA /* BookListCell.m */; };
+		5245AB8A19C045D100F8F2CA /* BookDateEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5245AB8919C045D100F8F2CA /* BookDateEditVC.m */; };
+		524A9B3619C8448B0023AC18 /* ChooseReportPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A9B3519C8448B0023AC18 /* ChooseReportPopover.m */; };
+		524A9B3919C848350023AC18 /* SaleReportVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A9B3819C848350023AC18 /* SaleReportVC.m */; };
+		524ECA5D19C2F59200148B75 /* CheckinReservedroomVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 524ECA5C19C2F59200148B75 /* CheckinReservedroomVC.m */; };
+		52CBC64B19BDA83C00F78FFC /* MainBookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CBC64A19BDA83C00F78FFC /* MainBookVC.m */; };
+		52D557B219B826EB00AEC6C7 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D557A719B826EB00AEC6C7 /* FMDatabase.m */; };
+		52D557B319B826EB00AEC6C7 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D557A919B826EB00AEC6C7 /* FMDatabaseAdditions.m */; };
+		52D557B419B826EB00AEC6C7 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D557AB19B826EB00AEC6C7 /* FMDatabasePool.m */; };
+		52D557B519B826EB00AEC6C7 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D557AD19B826EB00AEC6C7 /* FMDatabaseQueue.m */; };
+		52D557B619B826EB00AEC6C7 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D557AF19B826EB00AEC6C7 /* FMResultSet.m */; };
+		52D557B719B826EB00AEC6C7 /* ZMFMDBSQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D557B119B826EB00AEC6C7 /* ZMFMDBSQLiteHelper.m */; };
+		52D557B919B8271C00AEC6C7 /* HotelBooking.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 52D557B819B8271C00AEC6C7 /* HotelBooking.sqlite */; };
+		52D557BC19B82C5600AEC6C7 /* bgimg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52D557BB19B82C5600AEC6C7 /* bgimg.jpg */; };
+		52D557BE19B82CA700AEC6C7 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D557BD19B82CA700AEC6C7 /* libsqlite3.0.dylib */; };
+		52D557C319B831AB00AEC6C7 /* BuildingPopoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D557C219B831AB00AEC6C7 /* BuildingPopoverVC.m */; };
+		52D557CA19B8327700AEC6C7 /* BuildingListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D557C919B8327700AEC6C7 /* BuildingListCell.m */; };
+		52D557CD19B84F0100AEC6C7 /* RoomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D557CC19B84F0100AEC6C7 /* RoomCell.m */; };
+		52D557D019B8646000AEC6C7 /* MultiLineSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D557CF19B8646000AEC6C7 /* MultiLineSegmentedControl.m */; };
+		52D557D319B866CA00AEC6C7 /* UIView+LayerShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D557D219B866CA00AEC6C7 /* UIView+LayerShot.m */; };
+		52D557D719B8769200AEC6C7 /* RoomInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D557D619B8769200AEC6C7 /* RoomInfoVC.m */; };
+		52D557DD19B8772600AEC6C7 /* AnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D557DA19B8772600AEC6C7 /* AnimatedTransitioning.m */; };
+		52D557DE19B8772600AEC6C7 /* TransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D557DC19B8772600AEC6C7 /* TransitionDelegate.m */; };
+		52FDC6F219B82027001082A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FDC6F119B82027001082A3 /* Foundation.framework */; };
+		52FDC6F419B82027001082A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FDC6F319B82027001082A3 /* CoreGraphics.framework */; };
+		52FDC6F619B82027001082A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FDC6F519B82027001082A3 /* UIKit.framework */; };
+		52FDC6FC19B82027001082A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52FDC6FA19B82027001082A3 /* InfoPlist.strings */; };
+		52FDC6FE19B82027001082A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FDC6FD19B82027001082A3 /* main.m */; };
+		52FDC70219B82027001082A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FDC70119B82027001082A3 /* AppDelegate.m */; };
+		52FDC70519B82027001082A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FDC70319B82027001082A3 /* Main.storyboard */; };
+		52FDC70819B82027001082A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FDC70719B82027001082A3 /* ViewController.m */; };
+		52FDC70A19B82027001082A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FDC70919B82027001082A3 /* Images.xcassets */; };
+		52FDC71119B82027001082A3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FDC71019B82027001082A3 /* XCTest.framework */; };
+		52FDC71219B82027001082A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FDC6F119B82027001082A3 /* Foundation.framework */; };
+		52FDC71319B82027001082A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FDC6F519B82027001082A3 /* UIKit.framework */; };
+		52FDC71B19B82027001082A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52FDC71919B82027001082A3 /* InfoPlist.strings */; };
+		52FDC71D19B82027001082A3 /* HotelBookingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FDC71C19B82027001082A3 /* HotelBookingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52FDC71419B82027001082A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52FDC6E619B82027001082A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52FDC6ED19B82027001082A3;
+			remoteInfo = HotelBooking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		522318EF19C9854800AA26F9 /* SaleReportDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaleReportDetailVC.h; sourceTree = "<group>"; };
+		522318F019C9854800AA26F9 /* SaleReportDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaleReportDetailVC.m; sourceTree = "<group>"; };
+		522318F219C9965900AA26F9 /* SaleReportRoomVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaleReportRoomVC.h; sourceTree = "<group>"; };
+		522318F319C9965900AA26F9 /* SaleReportRoomVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaleReportRoomVC.m; sourceTree = "<group>"; };
+		522D533319BEAFAC00A6A34C /* JDStatusBarNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarNotification.h; sourceTree = "<group>"; };
+		522D533419BEAFAC00A6A34C /* JDStatusBarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarNotification.m; sourceTree = "<group>"; };
+		522D533519BEAFAC00A6A34C /* JDStatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarStyle.h; sourceTree = "<group>"; };
+		522D533619BEAFAC00A6A34C /* JDStatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarStyle.m; sourceTree = "<group>"; };
+		522D533719BEAFAC00A6A34C /* JDStatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarView.h; sourceTree = "<group>"; };
+		522D533819BEAFAC00A6A34C /* JDStatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarView.m; sourceTree = "<group>"; };
+		522D533C19BEE19900A6A34C /* blue_tri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_tri.png; sourceTree = "<group>"; };
+		522FF50419CAB64B007852EE /* ReportWeeklyMonthlyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportWeeklyMonthlyVC.h; sourceTree = "<group>"; };
+		522FF50519CAB64B007852EE /* ReportWeeklyMonthlyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportWeeklyMonthlyVC.m; sourceTree = "<group>"; };
+		522FF50719CABDFD007852EE /* Month_Year_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Month_Year_VC.h; sourceTree = "<group>"; };
+		522FF50819CABDFD007852EE /* Month_Year_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Month_Year_VC.m; sourceTree = "<group>"; };
+		522FF50A19CADDB0007852EE /* ReportColcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportColcell.h; sourceTree = "<group>"; };
+		522FF50B19CADDB0007852EE /* ReportColcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportColcell.m; sourceTree = "<group>"; };
+		52305BB019B980A500E07579 /* ToDateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDateVC.h; sourceTree = "<group>"; };
+		52305BB119B980A500E07579 /* ToDateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDateVC.m; sourceTree = "<group>"; };
+		52305BB419B980C300E07579 /* CKCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCalendarView.h; sourceTree = "<group>"; };
+		52305BB519B980C300E07579 /* CKCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCalendarView.m; sourceTree = "<group>"; };
+		52305BB719B980C300E07579 /* left_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_arrow.png; sourceTree = "<group>"; };
+		52305BB819B980C300E07579 /* left_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left_arrow@2x.png"; sourceTree = "<group>"; };
+		52305BB919B980C300E07579 /* right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_arrow.png; sourceTree = "<group>"; };
+		52305BBA19B980C300E07579 /* right_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right_arrow@2x.png"; sourceTree = "<group>"; };
+		5239D17D19C1A49400309722 /* EditBookinglistVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditBookinglistVC.h; sourceTree = "<group>"; };
+		5239D17E19C1A49400309722 /* EditBookinglistVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditBookinglistVC.m; sourceTree = "<group>"; };
+		523C1DAA19D511E4003A47FF /* Zawgyi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zawgyi.ttf; sourceTree = "<group>"; };
+		523E27F819C6A55B0075A7C6 /* cb_glossy_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_glossy_off.png; sourceTree = "<group>"; };
+		523E27F919C6A55B0075A7C6 /* cb_glossy_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_glossy_off@2x.png"; sourceTree = "<group>"; };
+		523E27FA19C6A55B0075A7C6 /* cb_glossy_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_glossy_on.png; sourceTree = "<group>"; };
+		523E27FB19C6A55B0075A7C6 /* cb_glossy_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_glossy_on@2x.png"; sourceTree = "<group>"; };
+		523E280019C6ED2D0075A7C6 /* CheckinSlipVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckinSlipVC.h; sourceTree = "<group>"; };
+		523E280119C6ED2D0075A7C6 /* CheckinSlipVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckinSlipVC.m; sourceTree = "<group>"; };
+		52404EF419D2D26E00B9A881 /* RoomTypePopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomTypePopover.h; sourceTree = "<group>"; };
+		52404EF519D2D26E00B9A881 /* RoomTypePopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomTypePopover.m; sourceTree = "<group>"; };
+		5245AB8119C008F300F8F2CA /* BookingListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingListVC.h; sourceTree = "<group>"; };
+		5245AB8219C008F300F8F2CA /* BookingListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingListVC.m; sourceTree = "<group>"; };
+		5245AB8519C02BBD00F8F2CA /* BookListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListCell.h; sourceTree = "<group>"; };
+		5245AB8619C02BBD00F8F2CA /* BookListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListCell.m; sourceTree = "<group>"; };
+		5245AB8819C045D100F8F2CA /* BookDateEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDateEditVC.h; sourceTree = "<group>"; };
+		5245AB8919C045D100F8F2CA /* BookDateEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDateEditVC.m; sourceTree = "<group>"; };
+		524A9B3419C8448B0023AC18 /* ChooseReportPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseReportPopover.h; sourceTree = "<group>"; };
+		524A9B3519C8448B0023AC18 /* ChooseReportPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseReportPopover.m; sourceTree = "<group>"; };
+		524A9B3719C848350023AC18 /* SaleReportVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaleReportVC.h; sourceTree = "<group>"; };
+		524A9B3819C848350023AC18 /* SaleReportVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaleReportVC.m; sourceTree = "<group>"; };
+		524ECA5B19C2F59200148B75 /* CheckinReservedroomVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckinReservedroomVC.h; sourceTree = "<group>"; };
+		524ECA5C19C2F59200148B75 /* CheckinReservedroomVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckinReservedroomVC.m; sourceTree = "<group>"; };
+		52CBC64919BDA83C00F78FFC /* MainBookVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainBookVC.h; sourceTree = "<group>"; };
+		52CBC64A19BDA83C00F78FFC /* MainBookVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainBookVC.m; sourceTree = "<group>"; };
+		52D557A619B826EB00AEC6C7 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		52D557A719B826EB00AEC6C7 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		52D557A819B826EB00AEC6C7 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		52D557A919B826EB00AEC6C7 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		52D557AA19B826EB00AEC6C7 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		52D557AB19B826EB00AEC6C7 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		52D557AC19B826EB00AEC6C7 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		52D557AD19B826EB00AEC6C7 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		52D557AE19B826EB00AEC6C7 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		52D557AF19B826EB00AEC6C7 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		52D557B019B826EB00AEC6C7 /* ZMFMDBSQLiteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMFMDBSQLiteHelper.h; sourceTree = "<group>"; };
+		52D557B119B826EB00AEC6C7 /* ZMFMDBSQLiteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMFMDBSQLiteHelper.m; sourceTree = "<group>"; };
+		52D557B819B8271C00AEC6C7 /* HotelBooking.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = HotelBooking.sqlite; sourceTree = "<group>"; };
+		52D557BB19B82C5600AEC6C7 /* bgimg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgimg.jpg; sourceTree = "<group>"; };
+		52D557BD19B82CA700AEC6C7 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		52D557C119B831AB00AEC6C7 /* BuildingPopoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingPopoverVC.h; sourceTree = "<group>"; };
+		52D557C219B831AB00AEC6C7 /* BuildingPopoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingPopoverVC.m; sourceTree = "<group>"; };
+		52D557C819B8327700AEC6C7 /* BuildingListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingListCell.h; sourceTree = "<group>"; };
+		52D557C919B8327700AEC6C7 /* BuildingListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingListCell.m; sourceTree = "<group>"; };
+		52D557CB19B84F0100AEC6C7 /* RoomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomCell.h; sourceTree = "<group>"; };
+		52D557CC19B84F0100AEC6C7 /* RoomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomCell.m; sourceTree = "<group>"; };
+		52D557CE19B8646000AEC6C7 /* MultiLineSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiLineSegmentedControl.h; sourceTree = "<group>"; };
+		52D557CF19B8646000AEC6C7 /* MultiLineSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiLineSegmentedControl.m; sourceTree = "<group>"; };
+		52D557D119B866CA00AEC6C7 /* UIView+LayerShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayerShot.h"; sourceTree = "<group>"; };
+		52D557D219B866CA00AEC6C7 /* UIView+LayerShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayerShot.m"; sourceTree = "<group>"; };
+		52D557D519B8769200AEC6C7 /* RoomInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomInfoVC.h; sourceTree = "<group>"; };
+		52D557D619B8769200AEC6C7 /* RoomInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomInfoVC.m; sourceTree = "<group>"; };
+		52D557D919B8772600AEC6C7 /* AnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedTransitioning.h; sourceTree = "<group>"; };
+		52D557DA19B8772600AEC6C7 /* AnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedTransitioning.m; sourceTree = "<group>"; };
+		52D557DB19B8772600AEC6C7 /* TransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionDelegate.h; sourceTree = "<group>"; };
+		52D557DC19B8772600AEC6C7 /* TransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionDelegate.m; sourceTree = "<group>"; };
+		52FDC6EE19B82027001082A3 /* HotelBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotelBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FDC6F119B82027001082A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52FDC6F319B82027001082A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52FDC6F519B82027001082A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52FDC6F919B82027001082A3 /* HotelBooking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HotelBooking-Info.plist"; sourceTree = "<group>"; };
+		52FDC6FB19B82027001082A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52FDC6FD19B82027001082A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52FDC6FF19B82027001082A3 /* HotelBooking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HotelBooking-Prefix.pch"; sourceTree = "<group>"; };
+		52FDC70019B82027001082A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52FDC70119B82027001082A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52FDC70419B82027001082A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52FDC70619B82027001082A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52FDC70719B82027001082A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52FDC70919B82027001082A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52FDC70F19B82027001082A3 /* HotelBookingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotelBookingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FDC71019B82027001082A3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		52FDC71819B82027001082A3 /* HotelBookingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HotelBookingTests-Info.plist"; sourceTree = "<group>"; };
+		52FDC71A19B82027001082A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52FDC71C19B82027001082A3 /* HotelBookingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotelBookingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52FDC6EB19B82027001082A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D557BE19B82CA700AEC6C7 /* libsqlite3.0.dylib in Frameworks */,
+				52FDC6F419B82027001082A3 /* CoreGraphics.framework in Frameworks */,
+				52FDC6F619B82027001082A3 /* UIKit.framework in Frameworks */,
+				52FDC6F219B82027001082A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FDC70C19B82027001082A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FDC71119B82027001082A3 /* XCTest.framework in Frameworks */,
+				52FDC71319B82027001082A3 /* UIKit.framework in Frameworks */,
+				52FDC71219B82027001082A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		522D533219BEAFAC00A6A34C /* JDStatusBarNotification */ = {
+			isa = PBXGroup;
+			children = (
+				522D533319BEAFAC00A6A34C /* JDStatusBarNotification.h */,
+				522D533419BEAFAC00A6A34C /* JDStatusBarNotification.m */,
+				522D533519BEAFAC00A6A34C /* JDStatusBarStyle.h */,
+				522D533619BEAFAC00A6A34C /* JDStatusBarStyle.m */,
+				522D533719BEAFAC00A6A34C /* JDStatusBarView.h */,
+				522D533819BEAFAC00A6A34C /* JDStatusBarView.m */,
+			);
+			path = JDStatusBarNotification;
+			sourceTree = "<group>";
+		};
+		522FF50319CAB624007852EE /* ReportWeekly_Monthly */ = {
+			isa = PBXGroup;
+			children = (
+				522FF50419CAB64B007852EE /* ReportWeeklyMonthlyVC.h */,
+				522FF50519CAB64B007852EE /* ReportWeeklyMonthlyVC.m */,
+			);
+			path = ReportWeekly_Monthly;
+			sourceTree = "<group>";
+		};
+		52305BAF19B980A500E07579 /* DatePopOverView */ = {
+			isa = PBXGroup;
+			children = (
+				52305BB019B980A500E07579 /* ToDateVC.h */,
+				52305BB119B980A500E07579 /* ToDateVC.m */,
+			);
+			path = DatePopOverView;
+			sourceTree = "<group>";
+		};
+		52305BB319B980C300E07579 /* CKCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				52305BB419B980C300E07579 /* CKCalendarView.h */,
+				52305BB519B980C300E07579 /* CKCalendarView.m */,
+				52305BB619B980C300E07579 /* resources */,
+			);
+			path = CKCalendar;
+			sourceTree = "<group>";
+		};
+		52305BB619B980C300E07579 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				52305BB719B980C300E07579 /* left_arrow.png */,
+				52305BB819B980C300E07579 /* left_arrow@2x.png */,
+				52305BB919B980C300E07579 /* right_arrow.png */,
+				52305BBA19B980C300E07579 /* right_arrow@2x.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		523E27F719C6A55B0075A7C6 /* checkboximg */ = {
+			isa = PBXGroup;
+			children = (
+				523E27F819C6A55B0075A7C6 /* cb_glossy_off.png */,
+				523E27F919C6A55B0075A7C6 /* cb_glossy_off@2x.png */,
+				523E27FA19C6A55B0075A7C6 /* cb_glossy_on.png */,
+				523E27FB19C6A55B0075A7C6 /* cb_glossy_on@2x.png */,
+			);
+			path = checkboximg;
+			sourceTree = "<group>";
+		};
+		52404EF319D2D1BA00B9A881 /* RoomTypePopoverVC */ = {
+			isa = PBXGroup;
+			children = (
+				52404EF419D2D26E00B9A881 /* RoomTypePopover.h */,
+				52404EF519D2D26E00B9A881 /* RoomTypePopover.m */,
+			);
+			path = RoomTypePopoverVC;
+			sourceTree = "<group>";
+		};
+		5245AB8019C008E000F8F2CA /* ReservationBookList */ = {
+			isa = PBXGroup;
+			children = (
+				5245AB8419C02B9500F8F2CA /* BookListCell */,
+				5245AB8119C008F300F8F2CA /* BookingListVC.h */,
+				5245AB8219C008F300F8F2CA /* BookingListVC.m */,
+				5239D17D19C1A49400309722 /* EditBookinglistVC.h */,
+				5239D17E19C1A49400309722 /* EditBookinglistVC.m */,
+				5245AB8819C045D100F8F2CA /* BookDateEditVC.h */,
+				5245AB8919C045D100F8F2CA /* BookDateEditVC.m */,
+			);
+			path = ReservationBookList;
+			sourceTree = "<group>";
+		};
+		5245AB8419C02B9500F8F2CA /* BookListCell */ = {
+			isa = PBXGroup;
+			children = (
+				5245AB8519C02BBD00F8F2CA /* BookListCell.h */,
+				5245AB8619C02BBD00F8F2CA /* BookListCell.m */,
+			);
+			path = BookListCell;
+			sourceTree = "<group>";
+		};
+		524A9B3219C844390023AC18 /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				522FF50319CAB624007852EE /* ReportWeekly_Monthly */,
+				524A9B3319C844390023AC18 /* ReportPopover */,
+				524A9B3719C848350023AC18 /* SaleReportVC.h */,
+				524A9B3819C848350023AC18 /* SaleReportVC.m */,
+				522318EF19C9854800AA26F9 /* SaleReportDetailVC.h */,
+				522318F019C9854800AA26F9 /* SaleReportDetailVC.m */,
+				522318F219C9965900AA26F9 /* SaleReportRoomVC.h */,
+				522318F319C9965900AA26F9 /* SaleReportRoomVC.m */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		524A9B3319C844390023AC18 /* ReportPopover */ = {
+			isa = PBXGroup;
+			children = (
+				524A9B3419C8448B0023AC18 /* ChooseReportPopover.h */,
+				524A9B3519C8448B0023AC18 /* ChooseReportPopover.m */,
+				522FF50719CABDFD007852EE /* Month_Year_VC.h */,
+				522FF50819CABDFD007852EE /* Month_Year_VC.m */,
+				522FF50A19CADDB0007852EE /* ReportColcell.h */,
+				522FF50B19CADDB0007852EE /* ReportColcell.m */,
+			);
+			path = ReportPopover;
+			sourceTree = "<group>";
+		};
+		524ECA5A19C2F57700148B75 /* CheckInVC */ = {
+			isa = PBXGroup;
+			children = (
+				524ECA5B19C2F59200148B75 /* CheckinReservedroomVC.h */,
+				524ECA5C19C2F59200148B75 /* CheckinReservedroomVC.m */,
+				523E280019C6ED2D0075A7C6 /* CheckinSlipVC.h */,
+				523E280119C6ED2D0075A7C6 /* CheckinSlipVC.m */,
+			);
+			path = CheckInVC;
+			sourceTree = "<group>";
+		};
+		52CBC64819BDA82F00F78FFC /* MainBookVC */ = {
+			isa = PBXGroup;
+			children = (
+				52CBC64919BDA83C00F78FFC /* MainBookVC.h */,
+				52CBC64A19BDA83C00F78FFC /* MainBookVC.m */,
+			);
+			path = MainBookVC;
+			sourceTree = "<group>";
+		};
+		52D557A419B826EB00AEC6C7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				522D533219BEAFAC00A6A34C /* JDStatusBarNotification */,
+				52305BB319B980C300E07579 /* CKCalendar */,
+				52D557D819B8772600AEC6C7 /* Transition Delegate */,
+				52D557D119B866CA00AEC6C7 /* UIView+LayerShot.h */,
+				52D557D219B866CA00AEC6C7 /* UIView+LayerShot.m */,
+				52D557CE19B8646000AEC6C7 /* MultiLineSegmentedControl.h */,
+				52D557CF19B8646000AEC6C7 /* MultiLineSegmentedControl.m */,
+				52D557A519B826EB00AEC6C7 /* FMDB */,
+				52D557B019B826EB00AEC6C7 /* ZMFMDBSQLiteHelper.h */,
+				52D557B119B826EB00AEC6C7 /* ZMFMDBSQLiteHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		52D557A519B826EB00AEC6C7 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				52D557A619B826EB00AEC6C7 /* FMDatabase.h */,
+				52D557A719B826EB00AEC6C7 /* FMDatabase.m */,
+				52D557A819B826EB00AEC6C7 /* FMDatabaseAdditions.h */,
+				52D557A919B826EB00AEC6C7 /* FMDatabaseAdditions.m */,
+				52D557AA19B826EB00AEC6C7 /* FMDatabasePool.h */,
+				52D557AB19B826EB00AEC6C7 /* FMDatabasePool.m */,
+				52D557AC19B826EB00AEC6C7 /* FMDatabaseQueue.h */,
+				52D557AD19B826EB00AEC6C7 /* FMDatabaseQueue.m */,
+				52D557AE19B826EB00AEC6C7 /* FMResultSet.h */,
+				52D557AF19B826EB00AEC6C7 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		52D557BA19B82C5600AEC6C7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				523E27F719C6A55B0075A7C6 /* checkboximg */,
+				522D533C19BEE19900A6A34C /* blue_tri.png */,
+				52D557BB19B82C5600AEC6C7 /* bgimg.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		52D557BF19B8319000AEC6C7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				524A9B3219C844390023AC18 /* Reports */,
+				524ECA5A19C2F57700148B75 /* CheckInVC */,
+				5245AB8019C008E000F8F2CA /* ReservationBookList */,
+				52CBC64819BDA82F00F78FFC /* MainBookVC */,
+				52305BAF19B980A500E07579 /* DatePopOverView */,
+				52D557D419B8767D00AEC6C7 /* RoomInfoVC */,
+				52D557C019B8319000AEC6C7 /* BuildingPopoverView */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		52D557C019B8319000AEC6C7 /* BuildingPopoverView */ = {
+			isa = PBXGroup;
+			children = (
+				52D557C719B8327700AEC6C7 /* BuildingListCell */,
+				52D557C119B831AB00AEC6C7 /* BuildingPopoverVC.h */,
+				52D557C219B831AB00AEC6C7 /* BuildingPopoverVC.m */,
+			);
+			path = BuildingPopoverView;
+			sourceTree = "<group>";
+		};
+		52D557C719B8327700AEC6C7 /* BuildingListCell */ = {
+			isa = PBXGroup;
+			children = (
+				52D557C819B8327700AEC6C7 /* BuildingListCell.h */,
+				52D557C919B8327700AEC6C7 /* BuildingListCell.m */,
+				52D557CB19B84F0100AEC6C7 /* RoomCell.h */,
+				52D557CC19B84F0100AEC6C7 /* RoomCell.m */,
+			);
+			path = BuildingListCell;
+			sourceTree = "<group>";
+		};
+		52D557D419B8767D00AEC6C7 /* RoomInfoVC */ = {
+			isa = PBXGroup;
+			children = (
+				52404EF319D2D1BA00B9A881 /* RoomTypePopoverVC */,
+				52D557D519B8769200AEC6C7 /* RoomInfoVC.h */,
+				52D557D619B8769200AEC6C7 /* RoomInfoVC.m */,
+			);
+			path = RoomInfoVC;
+			sourceTree = "<group>";
+		};
+		52D557D819B8772600AEC6C7 /* Transition Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				52D557D919B8772600AEC6C7 /* AnimatedTransitioning.h */,
+				52D557DA19B8772600AEC6C7 /* AnimatedTransitioning.m */,
+				52D557DB19B8772600AEC6C7 /* TransitionDelegate.h */,
+				52D557DC19B8772600AEC6C7 /* TransitionDelegate.m */,
+			);
+			path = "Transition Delegate";
+			sourceTree = "<group>";
+		};
+		52FDC6E519B82027001082A3 = {
+			isa = PBXGroup;
+			children = (
+				52FDC6F719B82027001082A3 /* HotelBooking */,
+				52FDC71619B82027001082A3 /* HotelBookingTests */,
+				52FDC6F019B82027001082A3 /* Frameworks */,
+				52FDC6EF19B82027001082A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52FDC6EF19B82027001082A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52FDC6EE19B82027001082A3 /* HotelBooking.app */,
+				52FDC70F19B82027001082A3 /* HotelBookingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52FDC6F019B82027001082A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52D557BD19B82CA700AEC6C7 /* libsqlite3.0.dylib */,
+				52FDC6F119B82027001082A3 /* Foundation.framework */,
+				52FDC6F319B82027001082A3 /* CoreGraphics.framework */,
+				52FDC6F519B82027001082A3 /* UIKit.framework */,
+				52FDC71019B82027001082A3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52FDC6F719B82027001082A3 /* HotelBooking */ = {
+			isa = PBXGroup;
+			children = (
+				523C1DAA19D511E4003A47FF /* Zawgyi.ttf */,
+				52D557BF19B8319000AEC6C7 /* ViewControllers */,
+				52D557BA19B82C5600AEC6C7 /* Images */,
+				52D557B819B8271C00AEC6C7 /* HotelBooking.sqlite */,
+				52D557A419B826EB00AEC6C7 /* Helpers */,
+				52FDC70019B82027001082A3 /* AppDelegate.h */,
+				52FDC70119B82027001082A3 /* AppDelegate.m */,
+				52FDC70319B82027001082A3 /* Main.storyboard */,
+				52FDC70619B82027001082A3 /* ViewController.h */,
+				52FDC70719B82027001082A3 /* ViewController.m */,
+				52FDC70919B82027001082A3 /* Images.xcassets */,
+				52FDC6F819B82027001082A3 /* Supporting Files */,
+			);
+			path = HotelBooking;
+			sourceTree = "<group>";
+		};
+		52FDC6F819B82027001082A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52FDC6F919B82027001082A3 /* HotelBooking-Info.plist */,
+				52FDC6FA19B82027001082A3 /* InfoPlist.strings */,
+				52FDC6FD19B82027001082A3 /* main.m */,
+				52FDC6FF19B82027001082A3 /* HotelBooking-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52FDC71619B82027001082A3 /* HotelBookingTests */ = {
+			isa = PBXGroup;
+			children = (
+				52FDC71C19B82027001082A3 /* HotelBookingTests.m */,
+				52FDC71719B82027001082A3 /* Supporting Files */,
+			);
+			path = HotelBookingTests;
+			sourceTree = "<group>";
+		};
+		52FDC71719B82027001082A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52FDC71819B82027001082A3 /* HotelBookingTests-Info.plist */,
+				52FDC71919B82027001082A3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52FDC6ED19B82027001082A3 /* HotelBooking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FDC72019B82027001082A3 /* Build configuration list for PBXNativeTarget "HotelBooking" */;
+			buildPhases = (
+				52FDC6EA19B82027001082A3 /* Sources */,
+				52FDC6EB19B82027001082A3 /* Frameworks */,
+				52FDC6EC19B82027001082A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotelBooking;
+			productName = HotelBooking;
+			productReference = 52FDC6EE19B82027001082A3 /* HotelBooking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52FDC70E19B82027001082A3 /* HotelBookingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FDC72319B82027001082A3 /* Build configuration list for PBXNativeTarget "HotelBookingTests" */;
+			buildPhases = (
+				52FDC70B19B82027001082A3 /* Sources */,
+				52FDC70C19B82027001082A3 /* Frameworks */,
+				52FDC70D19B82027001082A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52FDC71519B82027001082A3 /* PBXTargetDependency */,
+			);
+			name = HotelBookingTests;
+			productName = HotelBookingTests;
+			productReference = 52FDC70F19B82027001082A3 /* HotelBookingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52FDC6E619B82027001082A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ignite Software Solution";
+				TargetAttributes = {
+					52FDC6ED19B82027001082A3 = {
+						DevelopmentTeam = 3XKRBL89KZ;
+					};
+					52FDC70E19B82027001082A3 = {
+						TestTargetID = 52FDC6ED19B82027001082A3;
+					};
+				};
+			};
+			buildConfigurationList = 52FDC6E919B82027001082A3 /* Build configuration list for PBXProject "HotelBooking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52FDC6E519B82027001082A3;
+			productRefGroup = 52FDC6EF19B82027001082A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52FDC6ED19B82027001082A3 /* HotelBooking */,
+				52FDC70E19B82027001082A3 /* HotelBookingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52FDC6EC19B82027001082A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523E27FD19C6A55B0075A7C6 /* cb_glossy_off@2x.png in Resources */,
+				523E27FC19C6A55B0075A7C6 /* cb_glossy_off.png in Resources */,
+				523E27FE19C6A55B0075A7C6 /* cb_glossy_on.png in Resources */,
+				52305BBD19B980C300E07579 /* left_arrow@2x.png in Resources */,
+				52305BBC19B980C300E07579 /* left_arrow.png in Resources */,
+				52305BBE19B980C300E07579 /* right_arrow.png in Resources */,
+				52D557B919B8271C00AEC6C7 /* HotelBooking.sqlite in Resources */,
+				52FDC70A19B82027001082A3 /* Images.xcassets in Resources */,
+				52305BBF19B980C300E07579 /* right_arrow@2x.png in Resources */,
+				52FDC6FC19B82027001082A3 /* InfoPlist.strings in Resources */,
+				523C1DAB19D511E4003A47FF /* Zawgyi.ttf in Resources */,
+				522D533D19BEE19900A6A34C /* blue_tri.png in Resources */,
+				523E27FF19C6A55B0075A7C6 /* cb_glossy_on@2x.png in Resources */,
+				52D557BC19B82C5600AEC6C7 /* bgimg.jpg in Resources */,
+				52FDC70519B82027001082A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FDC70D19B82027001082A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FDC71B19B82027001082A3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52FDC6EA19B82027001082A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D557B719B826EB00AEC6C7 /* ZMFMDBSQLiteHelper.m in Sources */,
+				522D533919BEAFAC00A6A34C /* JDStatusBarNotification.m in Sources */,
+				52FDC70819B82027001082A3 /* ViewController.m in Sources */,
+				52D557D719B8769200AEC6C7 /* RoomInfoVC.m in Sources */,
+				522FF50C19CADDB0007852EE /* ReportColcell.m in Sources */,
+				52D557D019B8646000AEC6C7 /* MultiLineSegmentedControl.m in Sources */,
+				52D557B419B826EB00AEC6C7 /* FMDatabasePool.m in Sources */,
+				522D533B19BEAFAC00A6A34C /* JDStatusBarView.m in Sources */,
+				522FF50619CAB64B007852EE /* ReportWeeklyMonthlyVC.m in Sources */,
+				5239D17F19C1A49400309722 /* EditBookinglistVC.m in Sources */,
+				52FDC70219B82027001082A3 /* AppDelegate.m in Sources */,
+				523E280219C6ED2D0075A7C6 /* CheckinSlipVC.m in Sources */,
+				52D557B519B826EB00AEC6C7 /* FMDatabaseQueue.m in Sources */,
+				52D557D319B866CA00AEC6C7 /* UIView+LayerShot.m in Sources */,
+				522D533A19BEAFAC00A6A34C /* JDStatusBarStyle.m in Sources */,
+				5245AB8A19C045D100F8F2CA /* BookDateEditVC.m in Sources */,
+				52404EF619D2D26E00B9A881 /* RoomTypePopover.m in Sources */,
+				524ECA5D19C2F59200148B75 /* CheckinReservedroomVC.m in Sources */,
+				52D557DE19B8772600AEC6C7 /* TransitionDelegate.m in Sources */,
+				52FDC6FE19B82027001082A3 /* main.m in Sources */,
+				52D557CA19B8327700AEC6C7 /* BuildingListCell.m in Sources */,
+				52D557C319B831AB00AEC6C7 /* BuildingPopoverVC.m in Sources */,
+				52305BBB19B980C300E07579 /* CKCalendarView.m in Sources */,
+				5245AB8319C008F300F8F2CA /* BookingListVC.m in Sources */,
+				5245AB8719C02BBD00F8F2CA /* BookListCell.m in Sources */,
+				522318F419C9965900AA26F9 /* SaleReportRoomVC.m in Sources */,
+				524A9B3919C848350023AC18 /* SaleReportVC.m in Sources */,
+				52D557B219B826EB00AEC6C7 /* FMDatabase.m in Sources */,
+				52305BB219B980A500E07579 /* ToDateVC.m in Sources */,
+				52D557B619B826EB00AEC6C7 /* FMResultSet.m in Sources */,
+				52CBC64B19BDA83C00F78FFC /* MainBookVC.m in Sources */,
+				524A9B3619C8448B0023AC18 /* ChooseReportPopover.m in Sources */,
+				522318F119C9854800AA26F9 /* SaleReportDetailVC.m in Sources */,
+				52D557CD19B84F0100AEC6C7 /* RoomCell.m in Sources */,
+				522FF50919CABDFD007852EE /* Month_Year_VC.m in Sources */,
+				52D557DD19B8772600AEC6C7 /* AnimatedTransitioning.m in Sources */,
+				52D557B319B826EB00AEC6C7 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FDC70B19B82027001082A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FDC71D19B82027001082A3 /* HotelBookingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52FDC71519B82027001082A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52FDC6ED19B82027001082A3 /* HotelBooking */;
+			targetProxy = 52FDC71419B82027001082A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52FDC6FA19B82027001082A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52FDC6FB19B82027001082A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52FDC70319B82027001082A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52FDC70419B82027001082A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52FDC71919B82027001082A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52FDC71A19B82027001082A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52FDC71E19B82027001082A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thet Aye (467LNJS7BK)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		52FDC71F19B82027001082A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thet Aye (467LNJS7BK)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52FDC72119B82027001082A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotelBooking/HotelBooking-Prefix.pch";
+				INFOPLIST_FILE = "HotelBooking/HotelBooking-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52FDC72219B82027001082A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotelBooking/HotelBooking-Prefix.pch";
+				INFOPLIST_FILE = "HotelBooking/HotelBooking-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		52FDC72419B82027001082A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HotelBooking.app/HotelBooking";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotelBooking/HotelBooking-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HotelBookingTests/HotelBookingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		52FDC72519B82027001082A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HotelBooking.app/HotelBooking";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotelBooking/HotelBooking-Prefix.pch";
+				INFOPLIST_FILE = "HotelBookingTests/HotelBookingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52FDC6E919B82027001082A3 /* Build configuration list for PBXProject "HotelBooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FDC71E19B82027001082A3 /* Debug */,
+				52FDC71F19B82027001082A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FDC72019B82027001082A3 /* Build configuration list for PBXNativeTarget "HotelBooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FDC72119B82027001082A3 /* Debug */,
+				52FDC72219B82027001082A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FDC72319B82027001082A3 /* Build configuration list for PBXNativeTarget "HotelBookingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FDC72419B82027001082A3 /* Debug */,
+				52FDC72519B82027001082A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52FDC6E619B82027001082A3 /* Project object */;
+}
